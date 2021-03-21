@@ -63,7 +63,7 @@ _Agregar una nueva linea a GRUB_
 ![Captura_21_01_11_13-02](https://user-images.githubusercontent.com/65475712/104226553-9bcacf80-540d-11eb-9c15-da35329b3ea5.png)
 
 ```
-GRUB_CMDLINE_LINUX_DEFAULT="i8042.nopnp=1 pci=nocrs"
+GRUB_CMDLINE_LINUX_DEFAULT="pci=nocrs"
 ```
 _Guardar_ ```ctrl+o``` _y salir_ ```ctrl+x```
 
