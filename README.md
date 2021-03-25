@@ -61,7 +61,7 @@ _Agregar una nueva linea a GRUB_
 
     GRUB_CMDLINE_LINUX_DEFAULT="... i8042.nonpnp=1 pci=nocrs ..."
 
-_Guardar_ ```ctrl+o``` _y salir_ ```ctrl+x```
+*Guardar* **ctrl+o** *y salir* **ctrl+x**
 
 #### _Debian/Ubuntu/Void Linux_
 
