@@ -41,8 +41,8 @@ _Paquetería necesaria para compilar los módulos al kernel._
 #### _Si el kernel cambiase, compilar de nuevo_
 
     $ cd rtw88
-    $ sudo make install
-    $ sudo modprobe <dev_name>
+    # make install
+    # modprobe <dev_name>
     <dev_name> = rtw_8723de 
                  rtw_8822be 
                  rtw_8822ce 
