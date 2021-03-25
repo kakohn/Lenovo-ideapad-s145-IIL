@@ -81,7 +81,7 @@ _Guardar_ ```ctrl+o``` _y salir_ ```ctrl+x```
 
     # apt install build-essential libssl-dev libncurses5-dev gcc bc bison flex libelf-dev
 
-#### [_Código fuente Kernel linux_](https://www.kernel.org/)
+### [Código fuente Kernel linux](https://www.kernel.org/)
 
     $ mkdir linux
     $ cd linux
