@@ -4,7 +4,7 @@
 ## WIFI ✔
 
 ### Chip WIFI Realtek rama "rtw88", rtw_8723de(rtl8723de), rtw_8822be(rtl8822be), rtw_8822ce(rtl8822ce).
-_Paquetería necesaria para compilar los módulos al kernel._
+*Paquetería necesaria para compilar los módulos al kernel.*
 
 #### _Debian/Ubuntu_
 
@@ -38,7 +38,7 @@ _Paquetería necesaria para compilar los módulos al kernel._
                  rtw_8822be 
                  rtw_8822ce 
 
-#### _Si el kernel cambiase, compilar de nuevo_
+#### *Si el kernel cambiase, compilar de nuevo*
 
     $ cd rtw88
     # make install
@@ -54,7 +54,7 @@ Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
 
     # nano /etc/default/grub
 
-_Agregar una nueva linea a GRUB_
+*Agregar una nueva linea a GRUB*
 
 ![Captura_21_01_11_13-02](https://user-images.githubusercontent.com/65475712/104226553-9bcacf80-540d-11eb-9c15-da35329b3ea5.png)
 
@@ -63,21 +63,21 @@ _Agregar una nueva linea a GRUB_
 
 *Guardar* **ctrl+o** *y salir* **ctrl+x**
 
-#### _Debian/Ubuntu/Void Linux_
+#### *Debian/Ubuntu/Void Linux*
 
     # update-grub
     # reboot
 
-#### _Arch/openSUSE_
+#### *Arch/openSUSE*
 
     # grub2-mkconfig -o /boot/grub2/grub.cfg
     # reboot
 
 ## Compilar Kernel ✔
 
-### _Paquetes necesarios_
+### *Paquetes necesarios*
 
-#### _Debian/ubuntu_
+#### *Debian/ubuntu*
 
     # apt install build-essential libssl-dev libncurses5-dev gcc bc bison flex libelf-dev
 
@@ -89,8 +89,10 @@ _Agregar una nueva linea a GRUB_
     $ mkdir linux_kernel
     $ tar xvf linux-* -C linux_kernel/ --strip-components=1
     $ cd linux_kernel/
-    $ make localmodconfig               || localmodconfig = [Coge solamente el hardware conectado]
+    $ make localmodconfig
     $ make deb-pkg
+
+**localmodconfig = [Coge solamente el hardware conectado]**
 
 ## [Personalización LXDE ✔](https://youtu.be/pzQiQrm0Ei4)
 ![2020-07-06-124157_1366x768_scrot](https://user-images.githubusercontent.com/65475712/86627824-22e24b00-bf86-11ea-9325-eeca4c793d1f.png)
