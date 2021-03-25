@@ -1,5 +1,5 @@
 # Lenovo-Ideapad-s145-14IIL 
-![Captura_21_01_11_13-03](https://user-images.githubusercontent.com/65475712/104226602-b43aea00-540d-11eb-9a61-29e191b2e068.png)
+![Captura_21_01_11_13-03](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/Captura_20210324_202512.png)
 
 ## WIFI ✔
 
