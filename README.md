@@ -1,5 +1,5 @@
 # Lenovo-Ideapad-s145-14IIL 
-![Introducción](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/Captura_20210324_202512.png)
+![Introducción](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/captura1.png)
 
 ## WIFI ✔
 
@@ -56,7 +56,7 @@ Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
 
 *Agregar una nueva linea a GRUB*
 
-![Demostración](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/Captura_20210324_205258.png)
+![Demostración](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/captura2.png)
 
 
     GRUB_CMDLINE_LINUX_DEFAULT="... i8042.nopnp=1 pci=nocrs ..."
@@ -95,7 +95,7 @@ Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
 **localmodconfig = Coge solamente el hardware conectado**
 
 ## [Personalización LXDE ✔](https://youtu.be/pzQiQrm0Ei4)
-![2020-07-06-124157_1366x768_scrot](https://user-images.githubusercontent.com/65475712/86627824-22e24b00-bf86-11ea-9325-eeca4c793d1f.png)
+![Demostración_2](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/captura3.png)
 
 ## ¡Espero haberte ayudado!
 ### Grupos de Telegram
