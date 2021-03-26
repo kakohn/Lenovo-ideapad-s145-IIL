@@ -59,7 +59,7 @@ Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
 ![Demostración](https://github.com/kakohn/gnu-linux-lenovo-ideapad-s145-14IIL/blob/master/screenshots/Captura_20210324_205258.png)
 
 
-    GRUB_CMDLINE_LINUX_DEFAULT="... i8042.nonpnp=1 pci=nocrs ..."
+    GRUB_CMDLINE_LINUX_DEFAULT="... i8042.nopnp=1 pci=nocrs ..."
 
 *Guardar* **ctrl+o** *y salir* **ctrl+x**
 
