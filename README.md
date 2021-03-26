@@ -92,7 +92,7 @@ Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
     $ make localmodconfig
     $ make deb-pkg
 
-**localmodconfig = [Coge solamente el hardware conectado]**
+**localmodconfig = Coge solamente el hardware conectado**
 
 ## [Personalización LXDE ✔](https://youtu.be/pzQiQrm0Ei4)
 ![2020-07-06-124157_1366x768_scrot](https://user-images.githubusercontent.com/65475712/86627824-22e24b00-bf86-11ea-9325-eeca4c793d1f.png)
