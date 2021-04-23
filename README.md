@@ -58,7 +58,7 @@ Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
 
 *Agregar una nueva linea a GRUB*
 
-![Touchpad](screenshots/captura2.png)
+![Touchpad](screenshots/Captura2.png)
 
 
     GRUB_CMDLINE_LINUX_DEFAULT="... i8042.nopnp=1 pci=nocrs ..."
