@@ -1,5 +1,5 @@
 # Lenovo-Ideapad-s145-14IIL 
-![Introducción](screenshots/captura1.png)
+![Introducción](screenshots/Captura1.png)
 
 ## WIFI ✔
 
