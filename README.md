@@ -50,13 +50,11 @@
 ## Touchpad ✔
 ### Elantech Touchpad
 
-#### Esta configuración tiene incompatibilidad con el kernel linux5.11++
+#### Esta configuración es incompatible con el kernel linux5.11++
 
 Agregar una linea a GRUB en el archivo configuración *"/etc/default/grub"*
 
     # nano /etc/default/grub
-
-*Agregar una nueva linea a GRUB*
 
 ![Touchpad](screenshots/Captura2.png)
 
